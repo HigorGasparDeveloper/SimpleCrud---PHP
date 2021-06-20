@@ -4,7 +4,7 @@ Sistema em PHP com as operações INSERT, SELECT, DELETE e UPDATE, utilizando HT
 Estou utilizando o PHP para extração de conteúdo de uma página html para um arquivo em formato de  tabela do Excel (xls ou xlsx)  e a biblioteca fpdf para o mesmo, porém em pdf.
 *Atenção: para funcionamento correto da extração em pdf, deve-se ter uma pasta com o nome de fpdf (na pasta controller do projeto) com a biblioteca (não deixei por motivos de tamanho de arquivo)*
 Instruções para uso do projeto:
-1 - Primeiro, extraia o projeto e importe o banco de dados usado no funcionamento do sistema para o seu  servidor local por meio de qualquer gerenciador de banco de dados
+1 - Primeiro, extraia o projeto e importe o banco de dados usado no funcionamento do sistema (testepdo.sql) para o seu  servidor local por meio de qualquer gerenciador de banco de dados
 instalado em seu computador.
 2 - Agora, Crie uma pasta em seu localhost (Pelo WAMPP, na pasta www, pelo XAMPP, na pasta htdocs) e coloque as demais pastas do projeto extraído nela.
 3 - Por fim, inicie seu servidor local e teste pela url em seu navegador.
