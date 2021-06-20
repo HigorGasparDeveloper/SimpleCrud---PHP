@@ -1,0 +1,72 @@
+.div-form{
+  margin-top: 0%;
+  width: 40%;
+  height: 60%;
+}
+.div-inputs-form{
+  height: 25%;
+}
+.solo{
+  width: 45%;
+}
+.solo:focus{
+  width: 55%;
+}
+.input-base{
+  height: 50%;
+  width: 50%;
+  border-radius: 300px;
+  transition-duration: 0.5s;
+  outline: none;
+  font-size: 18px;
+  padding-left: 10px;
+  margin: 10px;
+}
+.divbutton{
+  height: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.btLoga{
+  font-size: 20px;
+  width: 30%;
+  height: 40%;
+  cursor: pointer;
+  border-radius: 300px;
+  border: 3px solid #6699ff;
+  color: #6699ff;
+  background-color: #fff;
+  transition-duration: 0.5s;
+  margin-right: 15px;
+  outline: none;
+}
+.btLoga:hover{
+  border: 3px solid #fff;
+  background-color: #6699ff;
+  color: white;
+}
+@media (min-width:700px) and (max-width:800px){
+  .div-form{
+    width: 50%;
+  }
+  .solo{
+    width: 55%;
+  }
+}
+@media (max-width:700px){
+  .div-form{
+    width: 90%;
+  }
+  .solo{
+    width: 70%;
+  }
+  .divbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btLoga{
+    width: 50%;
+  }
+}

@@ -1,0 +1,42 @@
+.div-form{
+  margin-top:0%;
+  width: 65%;
+  height: 85%;
+}
+.div-top-form{
+  height: 15%;
+  border-bottom: 1px solid #777;
+}
+.div-search{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-btns-topo{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-btns-topo button{
+  margin-left: 15px;
+  width: 40%;
+}
+.div-corpo-form{
+  width: 100%;
+  /* height: 85%; */
+  height: auto;
+}
+.inpt{
+  width: 80%;
+}
+.div-alterar{
+  width: 100%;
+  height:100%;
+}
+.div-alterar input{
+  margin-top: 10px;
+}
